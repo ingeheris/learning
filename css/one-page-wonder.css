@@ -17,7 +17,9 @@ h6 {
   font-family: 'Catamaran';
   font-weight: 800 !important;
 }
-
+a{
+  color: #fff !important;
+}
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -32,6 +34,9 @@ h6 {
 
 .Text-white {
   color: #fff !important;
+}
+.Text-pink {
+  color: #ee0979 !important;
 }
 
 .rounded-pill {
