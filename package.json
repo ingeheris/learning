@@ -1,11 +1,11 @@
 {
-    "title": "One Page Wonder",
-    "name": "startbootstrap-one-page-wonder",
+    "title": "IHS-Learning",
+    "name": "ihs-learning",
     "version": "5.0.8",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A one page HTML template built with Bootstrap",
+    "description": "Landing page based on Bootstrap",
     "keywords": [
         "css",
         "sass",
