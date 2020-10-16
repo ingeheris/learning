@@ -30,17 +30,8 @@
 
     gtag('config', 'UA-174675166-2');
   </script>
-<style>
-  #overbox3 {
-		    position: fixed;
-		    bottom: 0px;
-		    left: 0px;
-		    width: 100%;
-		    z-index: 999999;
-		    display: block;
-		}
-		
-	</style>
+<!-- cookiealert styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
 </head>
 
 <body>
@@ -170,14 +161,13 @@
       <p class="m-0 text-center text-white small">Copyright &copy; Ingeheris.com 2020</p>
     </div>
     <!-- /.container -->
-	<div id="overbox3">
-		<div class="alert alert-primary" role="alert">   
-			Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.     
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
+		<div class="alert alert-primary cookiealert" role="alert">   
+			Ce site web utilise des cookies pour obtenir des données statistiques sur la navigation de ses utilisateurs. Si vous continuez à naviguer, nous considérons que vous acceptez son utilisation.     
+			<button type="button" class="btn btn-primary btn-sm acceptcookies" >
+			Accepter
 			</button>
 		</div>
-	</div>
+
   </footer>
   
   <!-- Bootstrap core JavaScript -->
